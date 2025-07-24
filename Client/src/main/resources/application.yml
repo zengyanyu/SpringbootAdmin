@@ -17,13 +17,22 @@ spring:
         username: admin
         password: admin
         instance:
-          service-url: http://127.0.0.1:9999 #当前系统地址
+          service-url: http://localhost:7777 #当前系统地址
           name: admin-client2-instance
         metadata:
           # 这里配置admin-client的账号和密码
           user.name: admin
           user.password: admin
 
+  # Mysql配置
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/hola?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+      username: root
+      password: admin
+      driver-class-name: com.mysql.cj.jdbc.Driver
+
 logging:
   file:
-    name: D:/logs/actuator-admin-client.log
+    name: D:/logs/actuator-admin-client2.log

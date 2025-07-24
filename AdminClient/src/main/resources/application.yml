@@ -17,7 +17,7 @@ spring:
         username: admin
         password: admin
         instance:
-          service-url: http://127.0.0.1:9999 #当前系统地址
+          service-url: http://localhost:9999 #当前系统地址
           name: admin-client-instance
         metadata:
           # 这里配置admin-client的账号和密码
