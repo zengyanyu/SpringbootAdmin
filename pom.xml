@@ -11,6 +11,7 @@
     <modules>
         <module>AdminService</module>
         <module>AdminClient</module>
+        <module>Client</module>
     </modules>
 
     <properties>

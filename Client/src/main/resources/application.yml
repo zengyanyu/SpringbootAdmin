@@ -1,0 +1,29 @@
+# 打开客户端的监控
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+server:
+  port: 7777
+
+spring:
+  application:
+    name: admin-client2
+  boot:
+    admin:
+      client:
+        url: http://localhost:8888 #admin server的地址列表
+        username: admin
+        password: admin
+        instance:
+          service-url: http://127.0.0.1:9999 #当前系统地址
+          name: admin-client2-instance
+        metadata:
+          # 这里配置admin-client的账号和密码
+          user.name: admin
+          user.password: admin
+
+logging:
+  file:
+    name: D:/logs/actuator-admin-client.log

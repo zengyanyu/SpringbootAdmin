@@ -8,13 +8,16 @@
         <outputRelativeToContentRoot value="true" />
         <module name="admin-client" />
         <module name="AdminService" />
+        <module name="Client" />
         <module name="admin-service" />
         <module name="AdminClient" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="admin-client (1)" target="1.8" />
       <module name="admin-client1" target="1.8" />
-      <module name="AdminClient1" target="1.8" />
+      <module name="AdminClient1" target="8" />
+      <module name="AdminClient2" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
