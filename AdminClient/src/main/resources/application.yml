@@ -13,6 +13,7 @@ management:
     health:
       show-details: always # 访问/actuator/health时，显示详细信息，而不是仅仅显示"status": "UP"
 
+# 如果服务端配置了验证，客户端就需要设置用户名和密码
 spring:
   security:
     user:
