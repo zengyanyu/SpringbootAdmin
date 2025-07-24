@@ -1,15 +1,23 @@
+# 端口
+server:
+  port: 9999
+
 # 打开客户端的监控
 management:
   endpoints:
     web:
       exposure:
-        include: '*'
-server:
-  port: 9999
+        include: "*"
+        exclude: env,beans
+  endpoint:
+    health:
+      show-details: always # 访问/actuator/health时，显示详细信息，而不是仅仅显示"status": "UP"
 
 spring:
-  application:
-    name: admin-client
+  security:
+    user:
+      name: admin
+      password: admin
   boot:
     admin:
       client:
@@ -19,10 +27,9 @@ spring:
         instance:
           service-url: http://localhost:9999 #当前系统地址
           name: admin-client-instance
-        metadata:
-          # 这里配置admin-client的账号和密码
-          user.name: admin
-          user.password: admin
+          metadata:
+            user.name: admin
+            user.password: admin
 
 logging:
   file:

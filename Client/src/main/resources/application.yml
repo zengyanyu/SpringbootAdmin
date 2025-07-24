@@ -1,15 +1,23 @@
+# 端口
+server:
+  port: 7777
+
 # 打开客户端的监控
 management:
   endpoints:
     web:
       exposure:
-        include: '*'
-server:
-  port: 7777
+        include: "*"
+        exclude: env,beans
+  endpoint:
+    health:
+      show-details: always
 
 spring:
-  application:
-    name: admin-client2
+  security:
+    user:
+      name: admin
+      password: admin
   boot:
     admin:
       client:
@@ -19,10 +27,9 @@ spring:
         instance:
           service-url: http://localhost:7777 #当前系统地址
           name: admin-client2-instance
-        metadata:
-          # 这里配置admin-client的账号和密码
-          user.name: admin
-          user.password: admin
+          metadata:
+            user.name: admin
+            user.password: admin
 
   # Mysql配置
   datasource:
