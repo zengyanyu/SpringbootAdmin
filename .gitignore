@@ -10,3 +10,4 @@
 /Client/target/maven-archiver/pom.properties
 /AdminService/target/ZYY_SYS-0.0.1-SNAPSHOT.jar
 /AdminService/target/ZYY_SYS-0.0.1-SNAPSHOT.jar.original
+/Client/target/classes/com/zengyanyu/config/DruidConfig.class
