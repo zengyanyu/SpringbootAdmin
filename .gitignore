@@ -11,3 +11,6 @@
 /AdminService/target/ZYY_SYS-0.0.1-SNAPSHOT.jar
 /AdminService/target/ZYY_SYS-0.0.1-SNAPSHOT.jar.original
 /Client/target/classes/com/zengyanyu/config/DruidConfig.class
+/AdminClient/target/classes/com/zengyanyu/com/zengyanyu/endpoint/AppInfo.class
+/AdminClient/target/classes/com/zengyanyu/com/zengyanyu/endpoint/CustomHealthIndicator.class
+/Client/target/classes/com/zengyanyu/endpoint/AppInfo.class
