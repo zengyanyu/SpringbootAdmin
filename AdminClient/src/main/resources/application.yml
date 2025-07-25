@@ -27,8 +27,8 @@ spring:
         password: admin
         instance:
           service-url: http://localhost:${server.port} #当前系统地址
-          name: admin-client-instance1
-          metadata:
+          name: admin-client-instance1-port-${server.port}
+          metadata: # 元数据
             user.name: admin
             user.password: admin
 

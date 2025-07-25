@@ -2,7 +2,6 @@ package com.zengyanyu.com.zengyanyu.endpoint;
 
 import org.springframework.boot.actuate.info.Info;
 import org.springframework.boot.actuate.info.InfoContributor;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.stereotype.Component;
 
 import java.text.SimpleDateFormat;
