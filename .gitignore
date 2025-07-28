@@ -14,3 +14,6 @@
 /AdminClient/target/classes/com/zengyanyu/com/zengyanyu/endpoint/AppInfo.class
 /AdminClient/target/classes/com/zengyanyu/com/zengyanyu/endpoint/CustomHealthIndicator.class
 /Client/target/classes/com/zengyanyu/endpoint/AppInfo.class
+/AdminClient/target/classes/com/zengyanyu/com/zengyanyu/config/SecurityConfig.class
+/Client/target/classes/com/zengyanyu/config/SecurityConfig.class
+/AdminClient/target/classes/com/zengyanyu/config/SecurityConfig.class
