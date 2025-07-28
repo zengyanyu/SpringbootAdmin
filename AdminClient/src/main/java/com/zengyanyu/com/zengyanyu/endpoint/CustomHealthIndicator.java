@@ -10,11 +10,8 @@ public class CustomHealthIndicator extends AbstractHealthIndicator {
     @Override
     protected void doHealthCheck(Health.Builder builder) throws Exception {
         try {
-            if (true) {
-                builder.up().withDetail("自定义健康指标", "100%");
-            } else {
-                builder.down();
-            }
+            builder.up().withDetail("自定义健康指标", "100%");
+//            builder.down();
         } catch (Exception e) {
             builder.down().withException(e);
         }

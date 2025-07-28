@@ -8,10 +8,13 @@ management:
     web:
       exposure:
         include: "*"
-        exclude: env,beans
+    enabled-by-default: true
+  #        exclude: env,beans # 排除环境和类
   endpoint:
     health:
       show-details: always # 访问/actuator/health时，显示详细信息，而不是仅仅显示"status": "UP"
+    loggers:
+      enabled: true
 
 # 如果服务端配置了验证，客户端就需要设置用户名和密码
 spring:
