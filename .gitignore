@@ -59,3 +59,11 @@
 /Client/target/classes/mapper/LogRecordMapper.xml
 /Client/target/classes/com/zengyanyu/service/impl/LogRecordServiceImpl.class
 /Client/target/classes/com/zengyanyu/config/SwaggerConfig.class
+/AdminClient/target/classes/com/zengyanyu/endpoint/AppInfo.class
+/AdminClient/target/classes/application.yml
+/AdminClient/target/classes/com/zengyanyu/ClientApplication.class
+/AdminClient/target/classes/com/zengyanyu/endpoint/CustomHealthIndicator.class
+/AdminClient/target/classes/com/zengyanyu/controller/IndexController.class
+/AdminClient/target/classes/com/zengyanyu/config/SwaggerConfig$1.class
+/Client/target/classes/com/zengyanyu/config/SwaggerConfig$1.class
+/AdminClient/target/classes/com/zengyanyu/config/SwaggerConfig.class

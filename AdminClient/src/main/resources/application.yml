@@ -18,6 +18,9 @@ management:
 
 # 如果服务端配置了验证，客户端就需要设置用户名和密码
 spring:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher # 路径匹配策略
   security:
     user:
       name: admin

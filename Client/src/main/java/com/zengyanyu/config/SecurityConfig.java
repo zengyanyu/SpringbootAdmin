@@ -27,7 +27,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http
                 .csrf().disable() // 禁用 CSRF 保护  ,这个一定要设置；否则，日志 日志配置中的日志级别修改会报403权限问题
                 .authorizeRequests()
-                .antMatchers("/login", "/actuator/**", "/doc.html").permitAll()// 不需要进行登录，登录页面放行
+                .antMatchers("/login", "/actuator/**", "/menu/**").permitAll()// 不需要进行登录，登录页面放行
                 .anyRequest().authenticated();
     }
 

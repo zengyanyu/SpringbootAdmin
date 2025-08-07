@@ -23,7 +23,7 @@ spring:
       password: admin
   mvc:
     pathmatch:
-      matching-strategy: ant_path_matcher
+      matching-strategy: ant_path_matcher # 路径匹配策略
   boot:
     admin:
       client:
@@ -45,6 +45,18 @@ spring:
       username: root
       password: admin
       driver-class-name: com.mysql.cj.jdbc.Driver
+
+# Mybatis配置
+mybatis:
+  mapper-locations: classpath:mapper/**.xml
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  #打印SQL语句
+    map-underscore-to-camel-case: true #开启驼峰命名
+    cache-enabled: true  # 开启MyBatis二级缓存
+  global-config:
+    banner: off #关闭mybatisplus启动图标
 
 logging:
   file:
