@@ -67,3 +67,7 @@
 /AdminClient/target/classes/com/zengyanyu/config/SwaggerConfig$1.class
 /Client/target/classes/com/zengyanyu/config/SwaggerConfig$1.class
 /AdminClient/target/classes/com/zengyanyu/config/SwaggerConfig.class
+/Client/target/classes/com/zengyanyu/config/JwtAuthFilter.class
+/Client/target/classes/com/zengyanyu/util/JwtUtil.class
+/Client/target/classes/com/zengyanyu/config/MvcConfig.class
+/Client/target/classes/com/zengyanyu/config/JwtAuthenticationEntryPoint.class
