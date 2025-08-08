@@ -85,13 +85,12 @@ public class SwaggerConfig {
                 mappings.addAll(copy);
             }
 
-            @SuppressWarnings("unchecked")
             private List<RequestMappingInfoHandlerMapping> getHandlerMappings(Object bean) {
                 try {
                     Field field = ReflectionUtils.findField(bean.getClass(), "handlerMappings");
                     field.setAccessible(true);
                     return (List<RequestMappingInfoHandlerMapping>) field.get(bean);
-                } catch (IllegalArgumentException | IllegalAccessException e) {
+                } catch (IllegalAccessException e) {
                     throw new IllegalStateException(e);
                 }
             }
