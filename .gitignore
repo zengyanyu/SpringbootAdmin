@@ -71,3 +71,6 @@
 /Client/target/classes/com/zengyanyu/util/JwtUtil.class
 /Client/target/classes/com/zengyanyu/config/MvcConfig.class
 /Client/target/classes/com/zengyanyu/config/JwtAuthenticationEntryPoint.class
+/Client/target/classes/com/zengyanyu/util/HttpRequestUtil.class
+/Client/target/classes/com/zengyanyu/component/LogAspect.class
+/Client/target/classes/com/zengyanyu/config/UserContextHolder.class
