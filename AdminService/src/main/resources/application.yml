@@ -7,6 +7,11 @@ spring:
     user:
       name: admin
       password: admin
+  boot:
+    admin:
+      ui:
+        title: "我的监控中心"
+        brand: "<img src=\"assets/img/icon-spring-boot-admin.svg\"><span>我的监控中心（Spring Boot Admin）</span>"
 
 logging:
   file:

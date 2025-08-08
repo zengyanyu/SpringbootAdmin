@@ -74,3 +74,10 @@
 /Client/target/classes/com/zengyanyu/util/HttpRequestUtil.class
 /Client/target/classes/com/zengyanyu/component/LogAspect.class
 /Client/target/classes/com/zengyanyu/config/UserContextHolder.class
+/Client/target/classes/com/zengyanyu/service/IPermissionService.class
+/AdminClient/target/classes/com/zengyanyu/config/MvcConfig.class
+/Client/target/classes/com/zengyanyu/entity/Permission.class
+/Client/target/classes/com/zengyanyu/controller/PermissionController.class
+/Client/target/classes/com/zengyanyu/mapper/PermissionMapper.class
+/Client/target/classes/mapper/PermissionMapper.xml
+/Client/target/classes/com/zengyanyu/service/impl/PermissionServiceImpl.class
