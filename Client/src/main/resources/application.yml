@@ -41,10 +41,13 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
-      url: jdbc:mysql://127.0.0.1:3306/hola?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
+      url: jdbc:mysql://127.0.0.1:3306/database01?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8
       username: root
       password: admin
       driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
 
 # Mybatis配置
 mybatis:
