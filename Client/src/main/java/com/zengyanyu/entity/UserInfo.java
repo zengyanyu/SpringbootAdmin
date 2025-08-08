@@ -28,6 +28,7 @@ import lombok.Setter;
 public class UserInfo implements Serializable {
 
     @Id
+    @ApiModelProperty("主键ID")
     private String id;
 
     @ApiModelProperty("用户名")

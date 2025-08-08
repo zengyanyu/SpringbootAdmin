@@ -1,12 +1,14 @@
 package com.zengyanyu.entity;
 
 import java.io.Serializable;
+
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+
 import lombok.Getter;
 import lombok.Setter;
 
@@ -24,8 +26,10 @@ import lombok.Setter;
 public class Role implements Serializable {
 
     @Id
+    @ApiModelProperty("主键ID")
     private String id;
 
+    @ApiModelProperty("角色名称")
     private String roleName;
 
     @ApiModelProperty("角色编码")
