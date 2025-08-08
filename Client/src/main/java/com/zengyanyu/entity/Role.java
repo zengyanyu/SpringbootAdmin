@@ -20,7 +20,7 @@ import lombok.Setter;
 @Setter
 @Entity
 @TableName("role")
-@ApiModel(value = "Role对象", description = "角色")
+@ApiModel(value = "角色", description = "角色")
 public class Role implements Serializable {
 
     @Id
